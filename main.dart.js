@@ -693,7 +693,7 @@ return s},
 arD(a,b){var s,r,q,p,o,n,m="destalpha",l="flood",k="comp",j="SourceGraphic"
 switch(b.a){case 5:case 9:s=A.lW()
 A.C(s.c,"setAttribute",["color-interpolation-filters","sRGB"])
-s.rO(B.Be,m)
+s.rO(B.Bd,m)
 r=A.cS(a)
 s.k_(r==null?"":r,"1",l)
 s.o_(l,m,1,0,0,0,6,k)
@@ -19674,7 +19674,7 @@ n=A.an(new A.b0(p,l),!0,l.i("p.E"))
 new A.aF(n,new A.SU(q),A.a7(n).i("aF<1>")).X(0,m.gTp())
 new A.aF(q,new A.SV(m),A.a7(q).i("aF<1>")).X(0,r)}},
 ID(a){var s,r,q,p,o,n,m,l,k=A.iC().c-1
-if(k===0)return B.Bf
+if(k===0)return B.Be
 s=A.a([],t.uw)
 r=t.t
 q=A.a([],r)
@@ -21077,7 +21077,7 @@ nR(){var s=this.as
 s===$&&A.c()
 return s},
 lD(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Bl
+if(a<0||b<0)return B.Bk
 s=this.d
 s.toString
 r=this.i6(s)
@@ -37091,7 +37091,7 @@ if(s==null)s=B.cy
 p=p.e
 o=r.gRZ()
 r.a.toString
-return new A.vc(q,q,q,new A.a4d(),q,q,q,q,q,p,B.DI,q,q,B.Bm,r.gS4(),"",q,B.HE,s,q,o,q,q,B.m2,!1,!1,!1,!1,r.gRH(),!1,q,q,q,!1,new A.jp(r,t.l9))},
+return new A.vc(q,q,q,new A.a4d(),q,q,q,q,q,p,B.DI,q,q,B.Bl,r.gS4(),"",q,B.HE,s,q,o,q,q,B.m2,!1,!1,!1,!1,r.gRH(),!1,q,q,q,!1,new A.jp(r,t.l9))},
 N(a){var s,r=null,q=A.B0(!1,!1,this.NF(a),r,r,r,r,!0,r,r,new A.a4e(),r,r,r)
 this.a.toString
 s=this.d
@@ -49869,7 +49869,7 @@ this.e.f5(a)}}
 A.oO.prototype={
 k(a){return"Entry#"+A.bw(this)+"("+this.d.k(0)+")"}}
 A.pN.prototype={
-ah(){return new A.FD(A.az(t.ne),B.Bk,null,null,B.k)},
+ah(){return new A.FD(A.az(t.ne),B.Bj,null,null,B.k)},
 a_S(a,b){return A.afF().$2(a,b)},
 Zc(a,b){return A.aq5().$2(a,b)}}
 A.FD.prototype={
@@ -53586,7 +53586,7 @@ if(l===0)l=1}l=A.QV(B.ei,l)
 p=p.a.a.a
 s.gjR()
 s.gjR()
-return new A.ii(new A.rW(q,r,o.e,o.d,k,n,m,l,!1,(p&1)!==0,(p&2)!==0,(p&32)!==0,(p&4)!==0,(p&8)!==0,B.fM,new A.zR(null),B.Bn),this.a.c,null)},
+return new A.ii(new A.rW(q,r,o.e,o.d,k,n,m,l,!1,(p&1)!==0,(p&2)!==0,(p&32)!==0,(p&4)!==0,(p&8)!==0,B.fM,new A.zR(null),B.Bm),this.a.c,null)},
 l(){B.b.A($.as.ab$,this)
 this.aU()}}
 A.a4v.prototype={
@@ -53823,7 +53823,7 @@ m.d=new A.bp(null,t.r9)
 B.b.I(r,s.HS(null,m))
 m.a.toString
 q=0
-for(;!1;++q){p=B.Bo[q]
+for(;!1;++q){p=B.Bn[q]
 r=m.c
 r.toString
 r=p.w5(r)
@@ -58105,7 +58105,7 @@ if(a.a===B.cM)return s.c===-1?s.BS(a,!0):s.Ab(a,!0)
 return s.d===-1?s.BS(a,!1):s.Ab(a,!1)},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.guw(),p=0;p<s.length;s.length===r||(0,A.F)(s),++p)J.aiT(s[p],q)
-o.b=B.Bp
+o.b=B.Bo
 o.y=!1
 o.dO()},
 dW(a,b){return a.q1(b)},
@@ -58897,7 +58897,7 @@ A.tD.prototype={
 ah(){return new A.Ji(B.k)}}
 A.Ji.prototype={
 N(a){var s=null,r=A.am(204,255,255,255)
-return A.cY(s,A.i_(A.a([B.Gh,B.KL,B.Gi,A.lG(B.Bd,B.fG,B.bJ)],t.p),B.bC,B.ak),B.n,r,s,s,s,s,s,s,B.dh,s,s,s)}}
+return A.cY(s,A.i_(A.a([B.Gh,B.KL,B.Gi,A.lG(B.Bp,B.fG,B.bJ)],t.p),B.bC,B.ak),B.n,r,s,s,s,s,s,s,B.dh,s,s,s)}}
 A.rc.prototype={
 ah(){var s=null,r=t.E
 return new A.vL(new A.bp(s,r),new A.bp(s,r),new A.bp(s,r),new A.bp(s,r),new A.bp(s,r),B.k)}}
@@ -61553,7 +61553,7 @@ B.N=new A.Fj()
 B.bz=new A.a1u()
 B.t=new A.x(0,0,0,0)
 B.ei=new A.Fq(0,0,0,0)
-B.Bn=A.a(s([]),A.a3("w<asr>"))
+B.Bm=A.a(s([]),A.a3("w<asr>"))
 B.l7=new A.Fn()
 B.c4=new A.Fy()
 B.c5=new A.Fz()
@@ -61958,6 +61958,22 @@ B.B6=A.a(s([B.x3]),t.p)
 B.m4=A.a(s([B.f8,B.ds,B.cj,B.dv,B.dz,B.bI,B.lY,B.fj,B.ai,B.dA,B.bk,B.cg,B.ch,B.dt,B.ci,B.f9,B.b5,B.fa,B.fb,B.lW,B.ah,B.du,B.ck,B.cl,B.fc,B.fd,B.fe,B.ff,B.lX,B.fg,B.fh,B.dw,B.cm,B.cn,B.fi,B.dx,B.dy]),A.a3("w<b2>"))
 B.Ba=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
 B.Bc=A.a(s(["click","scroll"]),t.s)
+B.Bd=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.v)
+B.m6=A.a(s([]),A.a3("w<asf>"))
+B.Be=A.a(s([]),t.uw)
+B.Ni=A.a(s([]),t.as)
+B.Bl=A.a(s([]),t.yx)
+B.co=A.a(s([]),t.f)
+B.m8=A.a(s([]),t.tD)
+B.Bn=A.a(s([]),A.a3("w<a9N<@>>"))
+B.Bo=A.a(s([]),t.E1)
+B.fk=A.a(s([]),t.Q)
+B.dC=A.a(s([]),t.s)
+B.U=A.a(s([]),t.ve)
+B.Bk=A.a(s([]),t.px)
+B.Bj=A.a(s([]),t.p)
+B.dD=A.a(s([]),t.t)
+B.m5=A.a(s([]),t.zz)
 B.AI=A.a(s(["FastAPI","Dart"]),t.s)
 B.xA=new A.B(4284790262)
 B.xx=new A.B(4282557941)
@@ -61965,7 +61981,7 @@ B.xq=new A.B(4279592384)
 B.xp=new A.B(4279060385)
 B.Dx=new A.bg([50,B.lq,100,B.ln,200,B.eV,300,B.xA,400,B.xx,500,B.lk,600,B.de,700,B.eR,800,B.xq,900,B.xp],t.bl)
 B.cy=new A.jH(B.Dx,4280391411)
-B.EI=new A.is("Cropin","Precio is a comprehensive application designed to assist modern farmers in optimizing their agricultural operations by incorporating precision farming practices.",B.AI,B.cy,null)
+B.EJ=new A.is("Precio","Precio is a comprehensive application designed to assist modern farmers in optimizing their agricultural operations by incorporating precision farming practices.",B.AI,B.cy,null)
 B.B2=A.a(s(["Streamlit","NLP"]),t.s)
 B.yf=new A.B(4294962158)
 B.yc=new A.B(4294954450)
@@ -61978,7 +61994,7 @@ B.xJ=new A.B(4291176488)
 B.xH=new A.B(4290190364)
 B.Dw=new A.bg([50,B.yf,100,B.yc,200,B.xV,300,B.xN,400,B.xT,500,B.xX,600,B.xM,700,B.eW,800,B.xJ,900,B.xH],t.bl)
 B.E_=new A.jH(B.Dw,4294198070)
-B.EJ=new A.is("Synopyser","A YouTube video summarizer using streamlit, openai-whisper and hugging face transformers.",B.B2,B.E_,null)
+B.EI=new A.is("Synopyser","A YouTube video summarizer using streamlit, openai-whisper and hugging face transformers.",B.B2,B.E_,null)
 B.AV=A.a(s(["Python","Streamlit"]),t.s)
 B.yg=new A.B(4294964192)
 B.ye=new A.B(4294959282)
@@ -62021,23 +62037,7 @@ B.xr=new A.B(4279983648)
 B.Du=new A.bg([50,B.xP,100,B.xK,200,B.xF,300,B.xC,400,B.xB,500,B.xz,600,B.xy,700,B.xw,800,B.xv,900,B.xr],t.bl)
 B.fJ=new A.jH(B.Du,4283215696)
 B.EH=new A.is("EmotiSense","A sentimental analysis tool for daily routine.",B.AU,B.fJ,null)
-B.Bd=A.a(s([B.EI,B.EJ,B.EG,B.EF,B.EH]),t.p)
-B.Be=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.v)
-B.m6=A.a(s([]),A.a3("w<asf>"))
-B.Bf=A.a(s([]),t.uw)
-B.Ni=A.a(s([]),t.as)
-B.Bm=A.a(s([]),t.yx)
-B.co=A.a(s([]),t.f)
-B.m8=A.a(s([]),t.tD)
-B.Bo=A.a(s([]),A.a3("w<a9N<@>>"))
-B.Bp=A.a(s([]),t.E1)
-B.fk=A.a(s([]),t.Q)
-B.dC=A.a(s([]),t.s)
-B.U=A.a(s([]),t.ve)
-B.Bl=A.a(s([]),t.px)
-B.Bk=A.a(s([]),t.p)
-B.dD=A.a(s([]),t.t)
-B.m5=A.a(s([]),t.zz)
+B.Bp=A.a(s([B.EJ,B.EI,B.EG,B.EF,B.EH]),t.p)
 B.Br=A.a(s([0,0,32722,12287,65534,34815,65534,18431]),t.t)
 B.fl=A.a(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
 B.dE=A.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
@@ -62379,14 +62379,14 @@ B.B8=A.a(s(["in","iw","ji","jw","mo","aam","adp","aue","ayx","bgm","bjd","ccq","
 B.aC=new A.aW(78,{in:"id",iw:"he",ji:"yi",jw:"jv",mo:"ro",aam:"aas",adp:"dz",aue:"ktz",ayx:"nun",bgm:"bcg",bjd:"drl",ccq:"rki",cjr:"mom",cka:"cmr",cmk:"xch",coy:"pij",cqu:"quh",drh:"khk",drw:"prs",gav:"dev",gfx:"vaj",ggn:"gvr",gti:"nyc",guv:"duz",hrr:"jal",ibi:"opa",ilw:"gal",jeg:"oyb",kgc:"tdf",kgh:"kml",koj:"kwv",krm:"bmf",ktr:"dtp",kvs:"gdj",kwq:"yam",kxe:"tvd",kzj:"dtp",kzt:"dtp",lii:"raq",lmm:"rmx",meg:"cir",mst:"mry",mwj:"vaj",myt:"mry",nad:"xny",ncp:"kdz",nnx:"ngv",nts:"pij",oun:"vaj",pcr:"adx",pmc:"huw",pmu:"phr",ppa:"bfy",ppr:"lcq",pry:"prt",puz:"pub",sca:"hle",skk:"oyb",tdu:"dtp",thc:"tpo",thx:"oyb",tie:"ras",tkk:"twm",tlw:"weo",tmp:"tyj",tne:"kak",tnf:"prs",tsf:"taj",uok:"ema",xba:"cax",xia:"acn",xkh:"waw",xsj:"suj",ybd:"rki",yma:"lrr",ymt:"mtm",yos:"zom",yuu:"yug"},B.B8,t.hD)
 B.Nj=new A.bg([9,B.dX,10,B.hf,11,B.hg,12,B.hh,13,B.hi,14,B.hj,15,B.hk,16,B.hl,17,B.hm,18,B.hn,19,B.ho,20,B.ht,21,B.hu,22,B.hq,23,B.hr,24,B.h5,25,B.hb,26,B.fU,27,B.h6,28,B.h8,29,B.hd,30,B.h9,31,B.fY,32,B.h3,33,B.h4,34,B.hv,35,B.hw,36,B.hp,37,B.bo,38,B.fQ,39,B.h7,40,B.fT,41,B.fV,42,B.fW,43,B.fX,44,B.fZ,45,B.h_,46,B.h0,47,B.hy,48,B.hz,49,B.hA,50,B.bp,51,B.hx,52,B.he,53,B.hc,54,B.fS,55,B.ha,56,B.fR,57,B.h2,58,B.h1,59,B.hB,60,B.hC,61,B.hD,62,B.bN,63,B.i2,64,B.bq,65,B.hs,66,B.b6,67,B.hE,68,B.hF,69,B.hG,70,B.hH,71,B.hI,72,B.hJ,73,B.hK,74,B.hL,75,B.hM,76,B.hN,77,B.cG,78,B.cF,79,B.ic,80,B.id,81,B.ie,82,B.i3,83,B.i9,84,B.ia,85,B.ib,86,B.i4,87,B.i6,88,B.i7,89,B.i8,90,B.ig,91,B.ih,93,B.iV,94,B.ii,95,B.hO,96,B.hP,97,B.iM,98,B.iT,99,B.iU,100,B.iP,101,B.iN,102,B.iQ,104,B.i5,105,B.bM,106,B.i1,107,B.hQ,108,B.b7,110,B.hT,111,B.i0,112,B.hU,113,B.hZ,114,B.hY,115,B.hW,116,B.i_,117,B.hX,118,B.hS,119,B.hV,121,B.iI,122,B.iK,123,B.iJ,124,B.ik,125,B.il,126,B.t3,127,B.hR,128,B.jw,129,B.iL,130,B.iR,131,B.iS,132,B.iO,133,B.br,134,B.bO,135,B.ij,136,B.jo,137,B.iC,139,B.iD,140,B.iB,141,B.iF,142,B.iz,143,B.iG,144,B.iH,145,B.iE,146,B.iA,148,B.je,150,B.iY,151,B.iZ,152,B.jf,158,B.tq,160,B.ts,163,B.jd,164,B.jq,166,B.jm,167,B.jn,169,B.ja,171,B.j7,172,B.jb,173,B.j8,174,B.j9,175,B.j4,176,B.j6,177,B.tf,179,B.jc,180,B.jl,181,B.jp,182,B.th,187,B.iW,188,B.iX,189,B.tx,190,B.tD,191,B.im,192,B.io,193,B.ip,194,B.iq,195,B.ir,196,B.is,197,B.it,198,B.iu,199,B.iv,200,B.iw,201,B.ix,202,B.iy,209,B.j3,214,B.ty,215,B.j2,216,B.j5,217,B.tl,218,B.tA,225,B.jk,232,B.j1,233,B.j0,235,B.j_,237,B.td,238,B.tc,239,B.ju,240,B.js,241,B.jt,242,B.tz,243,B.tt,252,B.tb,256,B.fP,366,B.t6,370,B.tg,378,B.t7,380,B.jr,382,B.tv,400,B.tw,405,B.tp,413,B.te,418,B.ti,419,B.tj,426,B.tB,427,B.tC,429,B.tm,431,B.tn,437,B.to,439,B.t8,440,B.tu,441,B.tr,587,B.jg,588,B.jh,589,B.ji,590,B.tk,591,B.jj,592,B.jv,600,B.t9,601,B.ta,641,B.fO],t.iT)
 B.r6=new A.aW(0,{},B.co,A.a3("aW<G,p3>"))
-B.Bg=A.a(s([]),t.g)
-B.DJ=new A.aW(0,{},B.Bg,A.a3("aW<cO,cO>"))
-B.Bh=A.a(s([]),A.a3("w<lR>"))
-B.dQ=new A.aW(0,{},B.Bh,A.a3("aW<lR,aC>"))
+B.Bf=A.a(s([]),t.g)
+B.DJ=new A.aW(0,{},B.Bf,A.a3("aW<cO,cO>"))
+B.Bg=A.a(s([]),A.a3("w<lR>"))
+B.dQ=new A.aW(0,{},B.Bg,A.a3("aW<lR,aC>"))
 B.DI=new A.aW(0,{},B.dC,A.a3("aW<t,k(ap)>"))
 B.r4=new A.aW(0,{},B.dC,A.a3("aW<t,@>"))
-B.Bi=A.a(s([]),A.a3("w<lY>"))
-B.r3=new A.aW(0,{},B.Bi,A.a3("aW<lY,@>"))
+B.Bh=A.a(s([]),A.a3("w<lY>"))
+B.r3=new A.aW(0,{},B.Bh,A.a3("aW<lY,@>"))
 B.m7=A.a(s([]),A.a3("w<eb>"))
 B.DH=new A.aW(0,{},B.m7,A.a3("aW<eb,cd>"))
 B.r5=new A.aW(0,{},B.m7,A.a3("aW<eb,l5<cd>>"))
@@ -63178,8 +63178,8 @@ B.DF=new A.bg([B.cI,null,B.tG,null,B.EA,null,B.cJ,null,B.tH,null],A.a3("bg<eO,aN
 B.uc=new A.cj(B.DF,A.a3("cj<eO>"))
 B.DG=new A.bg([B.an,null,B.a7,null,B.aS,null],A.a3("bg<cD,aN>"))
 B.FT=new A.cj(B.DG,t.xu)
-B.Bj=A.a(s([]),t.ur)
-B.DK=new A.aW(0,{},B.Bj,A.a3("aW<cD,aN>"))
+B.Bi=A.a(s([]),t.ur)
+B.DK=new A.aW(0,{},B.Bi,A.a3("aW<cD,aN>"))
 B.FU=new A.cj(B.DK,t.xu)
 B.BA=A.a(s(["serif","sans-serif","monospace","cursive","fantasy","system-ui","math","emoji","fangsong"]),t.s)
 B.DT=new A.aW(9,{serif:null,"sans-serif":null,monospace:null,cursive:null,fantasy:null,"system-ui":null,math:null,emoji:null,fangsong:null},B.BA,t.CA)
