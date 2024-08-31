@@ -29,3 +29,7 @@ doc/api/
 
 .idea/
 test
+build/cache.dill.track.dill
+build/6b6a2b42c05a3a3d82390b56f6aa3345/_composite.stamp
+build/6b6a2b42c05a3a3d82390b56f6aa3345/gen_dart_plugin_registrant.stamp
+build/6b6a2b42c05a3a3d82390b56f6aa3345/gen_localizations.stamp
