@@ -1,12 +1,12 @@
-name: Deploy Flutter Web to GitHub Pages
+name: Deploy React/Vite to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Change this to your default branch if different
+      - main
 permissions:
   contents: write
-  
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -15,23 +15,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          flutter-version: '3.24.1'
-
-      - name: Enable Flutter Web
-        run: flutter config --enable-web
+          node-version: 20
 
       - name: Install dependencies
-        run: flutter pub get
+        run: npm ci
 
       - name: Build web app
-        run: flutter build web --release --web-renderer=html
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+          publish_dir: ./build
           publish_branch: gh-pages  
