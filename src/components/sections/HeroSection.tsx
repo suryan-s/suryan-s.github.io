@@ -6,7 +6,6 @@ import { Ring } from '../ui/Ring';
 export const HeroSection = () => {
     return (
         <section className="relative w-full h-screen flex flex-col justify-center overflow-hidden">
-            {/* Floating Rings for Hero */}
             <Ring
                 size="w-20 h-20 md:w-24 md:h-24"
                 width="border-[16px] md:border-[20px]"
@@ -40,11 +39,16 @@ export const HeroSection = () => {
                 float={true}
                 delay={2}
             />
+            <Ring
+                size="w-10 h-10 md:w-14 md:h-14"
+                width="border-[10px] md:border-[12px]"
+                color="border-[#00bcd4]"
+                className="right-[12%] bottom-[12%]"
+                float={true}
+                delay={1.2}
+            />
 
-            {/* Content Container */}
             <div className="w-full max-w-full grid grid-cols-1 md:grid-cols-12 h-full relative z-10">
-
-                {/* Spacer & Info Column */}
                 <div className="flex absolute md:relative inset-0 md:inset-auto md:col-span-5 h-full items-center pointer-events-none md:pointer-events-auto">
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -60,7 +64,6 @@ export const HeroSection = () => {
                     </motion.div>
                 </div>
 
-                {/* Main Hero Text */}
                 <div className="col-span-1 md:col-span-7 flex flex-col justify-center pl-16 md:pl-0">
                     <motion.h1
                         initial={{ opacity: 0, x: -30 }}

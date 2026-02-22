@@ -6,8 +6,6 @@ export const ContactSection = () => {
         <section className="relative w-full min-h-[80vh] flex flex-col justify-center py-20">
             <div className="w-full max-w-full grid grid-cols-1 md:grid-cols-12 h-full px-8 md:px-0">
                 <div className="col-span-1 md:col-start-2 md:col-span-10 flex flex-col justify-center h-full">
-
-                    {/* Main Text */}
                     <div className="font-sans font-bold tracking-tighter leading-[1] mb-24 relative z-10">
                         <h2 className="text-5xl md:text-7xl lg:text-[7rem] text-white mb-6">
                             Always open to
@@ -29,8 +27,6 @@ export const ContactSection = () => {
                             </motion.a>
                         </div>
                     </div>
-
-                    {/* Footer Links */}
 
                 </div>
             </div>

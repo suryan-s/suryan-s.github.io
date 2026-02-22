@@ -12,7 +12,7 @@ export const ShareWidget = () => (
         >
             <div className="flex items-center gap-3 hover:text-cyan-400 transition-colors cursor-pointer group">
                 <span className="text-[10px] md:text-xs font-bold tracking-[0.25em] uppercase whitespace-nowrap">
-                    Share with
+                    Made with
                 </span>
                 <motion.div
                     animate={{ scale: [1, 1.2, 1] }}
