@@ -1,0 +1,9 @@
+# Robots.txt for suryan.dev
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://suryan.dev/sitemap.xml
+
+# Crawl-delay (optional, be polite)
+Crawl-delay: 10
