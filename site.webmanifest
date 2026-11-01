@@ -1,0 +1,25 @@
+{
+  "name": "Suryan S — Full-Stack Engineer & System Architect",
+  "short_name": "Suryan S",
+  "description": "Full-Stack Engineer and System Architect based in India. Specializing in scalable distributed systems, clean architecture, and cloud-native solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0e0e",
+  "theme_color": "#0e0e0e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "developer-tools", "portfolio"]
+}
