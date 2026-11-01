@@ -27,7 +27,7 @@ export const getCommandResult = (cleanCmd: string): CommandResult => {
         case 'whoami':
         case 'about':
             return {
-                output: "Suryan S — Product Engineer @ CARESTACK | Top100Coders23 Fellow | .NET | Rust | Python | K8s | Full Stack Developer | Based in Thiruvananthapuram, Kerala, India"
+                output: "Suryan S — SWE @ CARESTACK | Top100Coders23 Fellow | .NET | Java | Python | TypeScript | Rust | K8s | Full Stack Developer | Based in Thiruvananthapuram, Kerala, India"
             };
         case 'experience':
         case 'exp':
@@ -35,10 +35,10 @@ export const getCommandResult = (cleanCmd: string): CommandResult => {
                 output: (
                     <div className="flex flex-col gap-4">
                         <div>
-                            <div className="text-white font-bold">Product Engineer @ CARESTACK</div>
-                            <div className="text-gray-500 text-xs">Oct 2024 - Present · 2 yrs 2 mos · Thiruvananthapuram, Kerala · On-site</div>
+                            <div className="text-white font-bold">Software Engineer @ CARESTACK</div>
+                            <div className="text-gray-500 text-xs">Oct 2024 - Present · Thiruvananthapuram, Kerala · On-site</div>
                             <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
-                                Building dental practice management software. .NET, Rust, Python, Kubernetes.
+                                Building dental practice management software. .NET, Java, Python, Kubernetes.
                             </div>
                         </div>
                         <div>
@@ -97,15 +97,40 @@ export const getCommandResult = (cleanCmd: string): CommandResult => {
         case 'skills':
             return {
                 output: (
-                    <div className="space-y-2">
-                        <div><span className="text-cyan-500">Languages:</span> Python, Rust, C#, JavaScript, TypeScript, C</div>
-                        <div><span className="text-cyan-500">Backend:</span> FastAPI, Django, ASP.NET, Flask, REST APIs, Microservices</div>
-                        <div><span className="text-cyan-500">Frontend:</span> Flutter, React, TypeScript</div>
-                        <div><span className="text-cyan-500">Cloud/Infra:</span> Kubernetes, Docker, Azure IoT, CI/CD, Linux</div>
-                        <div><span className="text-cyan-500">Data/ML:</span> PyTorch, NLTK, Computer Vision, Data Mining, Data Science</div>
-                        <div><span className="text-cyan-500">IoT:</span> Azure IoT, Industrial IoT (IIoT), Industry 4.0</div>
-                        <div><span className="text-cyan-500">Tools:</span> Git, Linux, DBMS, Ekipa, Coding Standards</div>
-                        <div><span className="text-cyan-500">Soft Skills:</span> Leadership, Critical Thinking, Team Leadership, Communication</div>
+                    <div className="space-y-4">
+                        <div>
+                            <span className="text-cyan-500 font-bold">.NET / C#:</span> ASP.NET Core, Entity Framework, IronGate
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Java:</span> Spring Boot, Microservices, REST APIs
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Python:</span> FastAPI, Django, Flask, PyTorch, NLTK, Computer Vision, Data Mining, Data Science
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">TypeScript / JavaScript:</span> React, Node.js, Vue, Ekipa, Precio, Synopysor
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Dart / Flutter:</span> GridNLP (mobile), Certificato frontend
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">C++:</span> YOLOv8-TensorRT, Automated Weather Station
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Go:</span> learn-go, CLI tools
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Cloud / Infra:</span> Kubernetes, Docker, Azure IoT, CI/CD, Linux, Grafana, Prometheus
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">IoT / Edge:</span> Azure IoT, Industrial IoT (IIoT), Industry 4.0, TensorRT
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Tools / Practices:</span> Git, Linux, DBMS, Clean Architecture, Microservices, Coding Standards, Ekipa
+                        </div>
+                        <div>
+                            <span className="text-cyan-500 font-bold">Soft Skills:</span> Leadership, Critical Thinking, Team Leadership, Communication, Community Building
+                        </div>
                     </div>
                 )
             };
@@ -136,28 +161,47 @@ export const getCommandResult = (cleanCmd: string): CommandResult => {
                             <div className="text-white font-bold">GridNLP</div>
                             <div className="text-gray-500 text-xs">Oct 2023 - Present</div>
                             <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
-                                NLP chat bot for Substation Asset Maintenance. NLTK, PyTorch, FastAPI (Python), Flutter (mobile).
+                                NLP chat bot for Substation Asset Maintenance. NLTK, PyTorch, FastAPI (Python), Flutter/Dart (mobile).
                                 Cosine similarity & tag matching for retrieval. Integrated spell checker.
                                 <a href="https://github.com/suryan-s/GridNLP" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline ml-2">GitHub</a>
                             </div>
                         </div>
                         <div>
                             <div className="text-white font-bold">Certificato</div>
-                            <div className="text-gray-500 text-xs">Feb 2023 - Present</div>
+                            <div className="text-gray-500 text-xs">Feb 2023 - Present · ⭐ 14</div>
                             <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
-                                Web app for bulk certificate generation & emailing. Streamlit, Google App Passwords for security.
+                                Web app for bulk certificate generation & emailing. Python (Streamlit), Google App Passwords for security.
                                 Reads Excel sheets, generates customized PDF certificates, emails recipients.
                             </div>
                         </div>
                         <div>
-                            <div className="text-white font-bold">Synopysor-Pro</div>
-                            <div className="text-gray-500 text-xs">Ongoing</div>
-                            <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">Code analysis & synthesis tool. Ekipa framework.</div>
+                            <div className="text-white font-bold">Synopysor / Synopysor-Pro</div>
+                            <div className="text-gray-500 text-xs">Ongoing · ⭐ 3</div>
+                            <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
+                                Code analysis & synthesis tool. Python, TypeScript. Ekipa framework.
+                            </div>
                         </div>
                         <div>
                             <div className="text-white font-bold">Ekipa</div>
                             <div className="text-gray-500 text-xs">Ongoing</div>
-                            <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">Development framework/tooling project.</div>
+                            <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
+                                Development framework/tooling. TypeScript.
+                            </div>
+                        </div>
+                        <div>
+                            <div className="text-white font-bold">Precio</div>
+                            <div className="text-gray-500 text-xs">Ongoing · ⭐ 4</div>
+                            <div className="text-gray-400 pl-4 border-l border-gray-700 mt-1">
+                                Price tracking/comparison tool. TypeScript.
+                            </div>
+                        </div>
+                        <div>
+                            <div className="text-white font-bold">IronGate</div>
+                            <div className="text-gray-500 text-xs">C# / .NET security project</div>
+                        </div>
+                        <div>
+                            <div className="text-white font-bold">YOLOv8-TensorRT-CPP</div>
+                            <div className="text-gray-500 text-xs">C++ · High-performance inference · ⭐ 1</div>
                         </div>
                     </div>
                 )
