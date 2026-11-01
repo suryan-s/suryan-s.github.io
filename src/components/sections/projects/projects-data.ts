@@ -10,19 +10,19 @@ export type Project = {
 export const projects: Project[] = [
     {
         id: "01",
+        title: "ZYRA",
+        desc: "Infrastructure orchestration platform for managing Proxmox VMs, LXCs, Kubernetes clusters, and distributed workloads. Features GPU/HDD hot-plug support, automated failover, and unified observability.",
+        stack: ["Go", "TypeScript", "React", "Proxmox API", "Kubernetes", "PostgreSQL"],
+        stat: "Live",
+        link: "https://devzyra.xyz/"
+    },
+    {
+        id: "02",
         title: "CERTIFICATO",
         desc: "Bulk certificate generation web app. Upload Excel sheets, generate customized PDF certificates, and email recipients automatically using Google App Passwords for security.",
         stack: ["Python", "Streamlit", "Pandas", "ReportLab", "SMTP"],
         stat: "⭐ 14",
         link: "https://github.com/suryan-s/Certificato"
-    },
-    {
-        id: "02",
-        title: "PRECIO",
-        desc: "Precision farming application for modern farmers to optimize agricultural operations. Built with modern web technologies for real-time crop monitoring and yield prediction.",
-        stack: ["TypeScript", "React", "Node.js", "PostgreSQL", "Tailwind"],
-        stat: "⭐ 4",
-        link: "https://github.com/suryan-s/Precio"
     },
     {
         id: "03",
