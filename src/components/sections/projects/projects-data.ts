@@ -4,42 +4,48 @@ export type Project = {
     desc: string;
     stack: string[];
     stat: string;
+    link?: string;
 };
 
 export const projects: Project[] = [
     {
         id: "01",
-        title: "DISTRIBUTED_LEDGER",
-        desc: "High-throughput consensus algorithm implementation in Rust.",
-        stack: ["Rust", "gRPC", "RocksDB"],
-        stat: "50k TPS"
+        title: "CERTIFICATO",
+        desc: "Bulk certificate generation web app. Upload Excel sheets, generate customized PDF certificates, and email recipients automatically using Google App Passwords for security.",
+        stack: ["Python", "Streamlit", "Pandas", "ReportLab", "SMTP"],
+        stat: "⭐ 14",
+        link: "https://github.com/suryan-s/Certificato"
     },
     {
         id: "02",
-        title: "NEURAL_VISUALIZER",
-        desc: "Real-time WebGL visualization of neural network activation patterns.",
-        stack: ["Three.js", "React", "Python"],
-        stat: "60FPS"
+        title: "PRECIO",
+        desc: "Precision farming application for modern farmers to optimize agricultural operations. Built with modern web technologies for real-time crop monitoring and yield prediction.",
+        stack: ["TypeScript", "React", "Node.js", "PostgreSQL", "Tailwind"],
+        stat: "⭐ 4",
+        link: "https://github.com/suryan-s/Precio"
     },
     {
         id: "03",
-        title: "CLOUD_ORCHESTRATOR",
-        desc: "Custom container orchestration system for edge computing nodes.",
-        stack: ["Go", "Docker API", "Raft"],
-        stat: "99.9% Uptime"
+        title: "SYNOPYSOR",
+        desc: "YouTube video summarizer using OpenAI Whisper for transcription and Hugging Face Transformers for summarization. Extract key insights from long-form video content automatically.",
+        stack: ["Python", "Streamlit", "Whisper", "Transformers", "PyTorch"],
+        stat: "⭐ 3",
+        link: "https://github.com/suryan-s/Synopysor"
     },
     {
         id: "04",
-        title: "DEFI_EXCHANGE",
-        desc: "Decentralized exchange with automated market maker logic.",
-        stack: ["Solidity", "Ethers.js", "GraphQL"],
-        stat: "$2M TVL"
+        title: "GRIDNLP",
+        desc: "NLP chatbot for Substation Asset Maintenance support. Handles maintenance procedures, troubleshooting, safety protocols, and equipment recommendations using cosine similarity and tag matching retrieval.",
+        stack: ["Dart", "Flutter", "Python", "FastAPI", "NLTK", "PyTorch"],
+        stat: "⭐ 1",
+        link: "https://github.com/suryan-s/GridNLP"
     },
     {
         id: "05",
-        title: "SYSTEM_MONITOR",
-        desc: "Kernel-level metrics collection and visualization dashboard.",
-        stack: ["C++", "eBPF", "Next.js"],
-        stat: "0.1% Overhead"
+        title: "IRONGATE",
+        desc: "High-performance, distributed API Gateway and Layer 7 traffic controller built on .NET. Designed for microservices architectures with rate limiting, routing, and observability.",
+        stack: ["C#", ".NET", "ASP.NET Core", "Kubernetes", "Docker"],
+        stat: "Active",
+        link: "https://github.com/suryan-s/IronGate"
     }
 ];
